@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,95 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #00feda, #5d548a);
+}
+
+/* .form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+} */
+
+.search-input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  border-radius: 30px;
+  height: 50px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  width: 70%;
+  /* padding: 10px;
+ 
+  margin-right: 5px; */
+}
+
+.search-btn {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+}
+
+
+
+.forecast {
+  margin-top: 20px;
+}
+
+.forecast-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.forecast-item {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+}
+
+.p-description {
+  color: black;
+}
+
+p {
+  padding: 5px;
+  color: #4a3d8b;
+}
+
+h2 {
+  padding: 10px;
+}
+
+.forecast-item img {
+  width: 80px;
+  height: 80px;
 }
